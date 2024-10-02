@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+header{
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+
+.container{
+    width: 75%;
+    max-width: 1440px;   
+    margin: 0 auto;
+}
+
+
+
+.banner{
+    display: flex;
+}
