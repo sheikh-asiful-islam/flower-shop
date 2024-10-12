@@ -156,6 +156,45 @@ header {
 }
 
 
+.section-content .flower p{
+    color: #272727;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+
+}
+
+
+
+
+
+.section-content .service p{
+    color: #272727;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+
+}
+
+
+
+
+#second{
+    padding: 100px 0;  /* top-bottom take 100px space, right left no padding */
+    background-color: beige;
+    padding: 30px 80px 0;
+    
+  
+}
+
 
 
 /* comment   */
