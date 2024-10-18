@@ -26,6 +26,7 @@ button {
     padding: 15px 20px;
     cursor: pointer;
     transition: all 1s;
+    margin-top: 20px;
 }
 
 
@@ -59,11 +60,13 @@ button:hover {
     font-weight: 800;
     line-height: normal;
     margin-bottom: 16px;
+
 }
 
 
 
-header {
+header,
+#hot-deal {
     background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -106,13 +109,14 @@ header {
 }
 
 
-#featured{
-    padding: 100px 0;  /* top-bottom take 100px space, right left no padding */
+#featured {
+    padding: 100px 0;
+    /* top-bottom take 100px space, right left no padding */
 }
 
 
 
-.section-content{
+.section-content {
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -123,8 +127,8 @@ header {
 
 
 
-.section-content .flower .flower-img{
-    background-color:  #eb9cad;
+.section-content .flower .flower-img {
+    background-color: #eb9cad;
     border-radius: 300px 300px 0px 0px;
     padding: 30px 25px 0;
     height: 500px;
@@ -133,30 +137,29 @@ header {
 }
 
 
-.section-content .flower .flower-img img{
-    width:100%;
+.section-content .flower .flower-img img {
+    width: 100%;
 
 }
 
 
-.section-content .flower .pink{
+.section-content .flower .pink {
     background: rgba(167, 33, 98, 0.15);
 
 }
 
-.section-content .flower .blue{
+.section-content .flower .blue {
     background: rgba(5, 151, 160, 0.15)
-
 }
 
-.section-content .flower .green{
+.section-content .flower .green {
     background: rgba(71, 125, 17, 0.15);
 
 
 }
 
 
-.section-content .flower p{
+.section-content .flower p {
     color: #272727;
     text-align: center;
     margin-top: 16px;
@@ -172,7 +175,7 @@ header {
 
 
 
-.section-content .service p{
+.section-content .service p {
     color: #272727;
     text-align: center;
     margin-top: 16px;
@@ -187,13 +190,60 @@ header {
 
 
 
-#second{
-    padding: 100px 0;  /* top-bottom take 100px space, right left no padding */
+#second {
+    padding: 100px 0;
+    /* top-bottom take 100px space, right left no padding */
     background-color: beige;
     padding: 30px 80px 0;
-    
-  
+
+
 }
+
+
+
+
+.hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+
+}
+
+
+#hot-deal .hot-deal-text {
+    width: 75%;
+    max-width: 550px;
+}
+
+
+#hot-deal .hot-deal-text *
+{
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+#hot-deal .hot-deal-text h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    /* margin-bottom: 24px; */
+}
+
+#hot-deal .hot-deal-img{
+    max-width: 318px;
+
+
+}
+
+#hot-deal .hot-deal-text h2 .important{
+    color: #e55473;
+
+}
+
 
 
 
