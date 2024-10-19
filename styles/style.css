@@ -258,6 +258,36 @@ header,
 
 
 
+#newsletter form{
+    max-width: 800px;
+    margin: 20px auto;
+    /* display: flex; */
+    gap: 10px;
+}
+
+#newsletter form input{
+    max-width: 600px;
+    flex-grow: 1;
+    border: none;
+    /* width: 600px;
+    inline-size: auto;
+   */
+   border-radius: 3px;
+   padding: 3px;
+   outline: 1px solid green;
+}
+
+
+
+
+.footer{
+    font-size: medium;
+    text-align: center;
+    background-color: yellow;
+    padding:25px;
+    
+    
+}
 
 
 /* comment   */
